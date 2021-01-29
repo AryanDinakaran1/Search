@@ -1,0 +1,128 @@
+
+/*
+This is the style.css file
+this is the file that is actually a makeup for the app
+*/
+
+body
+{
+     margin: 0px;
+}
+input[type=text]
+{
+     height: 25px;
+     width: 500px;
+     border-color: grey;
+     border-width: 1px;
+     border-radius: 2px;
+     padding-left: 5px;
+     font-size: 15px;
+}
+.normalAndImageField
+{
+     width: 600px;
+     height: 50px auto;
+     border-radius: 50px;
+     margin: 10px;
+     padding: 10px;
+     border-width: 2px;
+     border-color: dodgerblue;
+     font-size: 20px;
+}
+.normalAndImageField:hover
+{
+     width: 600px;
+     height: 50px auto;
+     border-radius: 50px;
+     margin: 10px;
+     padding: 10px;
+     border-width: 5px;
+     border-color: dodgerblue;
+     font-size: 20px;
+}
+.downButton
+{
+     height: 40px;
+     width: 190px;
+     background-color: rgb(224, 224, 224);
+     font-size: 20px;
+     color: grey;
+     border-radius: 10px;
+     border-width: 0px;
+     margin: 10px;
+}
+.downButton:hover
+{
+     height: 40px;
+     width: 190px;
+     background-color: rgb(224, 224, 224);
+     font-size: 20px;
+     color: grey;
+     border-radius: 10px;
+     border-width: 3px;
+}
+.topButtons
+{
+     height: 30px;
+     width: 160px;
+     background-color: royalblue;
+     font-size: 17px;
+     color: white;
+     border-radius: 10px;
+     border-width: 0px;
+     margin-left: 10px;
+}
+.topButtons:hover
+{
+     height: 30px;
+     width: 160px;
+     background-color: white;
+     color: dodgerblue;
+     border-color: dodgerblue;
+     font-size: 17px;
+     border-radius: 10px;
+     border-width: 2px;
+     margin-left: 10px;
+}
+.lightTextForAd
+{
+     color: grey;
+     font-size: 12px;
+}
+#mainStack
+{
+     margin-top: 100px;
+     text-align: center;
+}
+
+#googleSearchLogo
+{
+     height: 100px;
+     width: 285px;
+}
+#topBar
+{
+     text-align: right;
+     padding: 10px;
+     background-color: rgb(231, 231, 231);
+}
+#advanceTitle
+{
+     color: crimson;
+     font-family: Arial, Helvetica, sans-serif;
+}
+#formAd
+{
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 20px;
+}
+#adSearchButton
+{
+     height: 30px;
+     width: 150px;
+     background-color: dodgerblue;
+     color: white;
+     border-width: 0px;
+     border-radius: 5px;
+     font-size: 15px;
+}

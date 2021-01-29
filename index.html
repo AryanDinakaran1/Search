@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <div id="topBar">
+            <form>
+                <button class="topButtons" type="submit" formaction="imageSearch.html">Image Search</a>
+                <button class="topButtons" type="submit" formaction="advancedSearch.html">Advanced Search</a>
+            </form>
+        </div>
+        <div id="mainStack">
+            <div>
+                <img id="googleSearchLogo" src="logo.png">
+            </div>
+            <div>
+                <form action="https://google.com/search">
+                    <input type="search" class="normalAndImageField" name="q" placeholder="Search Google">
+                    <br>
+                    <div>
+                        <button class="downButton" type="submit">Google Search</button>
+                        <button class="downButton" type="submit" name="btnI">I'm Feeling Lucky</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
